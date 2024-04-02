@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Admin Dashboard</title>
+  <link rel="stylesheet" href="./icons/bootstrap-icons.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="container">
+    <!------------------ Sidebar -------------------->
+    <aside class="sidebar">
+
+      <!-- sidebar head -->
+      <div class="sidebar-head">
+        <h1 class="header-title">OUTER</h1>
+        <div class="sidebar-close">
+          <i class="bi bi-x"></i>
+        </div>
+      </div>
+
+      <!-- sidebar body -->
+      <div class="sidebar-body">
+        <ul>
+          <li class="active">
+            <a id="toggle" href="/">
+              <div>
+                <i class="bi bi-speedometer2"></i>
+                <h3>Dashboard</h3>
+              </div>
+            </a>
+          </li>
+          <li class="dropdown-list">
+            <a id="toggle">
+              <div>
+                <i class="bi bi-award"></i>
+                <h3>Products</h3>
+              </div>
+              <div class="arrow ">
+                <i class="bi bi-chevron-right"></i>
+              </div>
+            </a>
+            <ul class="sublist">
+              <li><a href="/product/show.html">Show product</a></li>
+              <li><a href="/product/create.html">Create product</a></li>
+            </ul>
+          </li>
+          <li class="dropdown-list">
+            <a id="toggle">
+              <div>
+                <i class="bi bi-people"></i>
+                <h3>customer</h3>
+              </div>
+              <div class="arrow">
+                <i class="bi bi-chevron-right"></i>
+              </div>
+            </a>
+            <ul class="sublist">
+              <li><a href="/product/show.html">Show product</a></li>
+              <li><a href="/product/create.html">Create product</a></li>
+            </ul>
+          </li>
+          <li class="dropdown-list">
+            <a id="toggle">
+              <div>
+                <i class="bi bi-list-ol"></i>
+                <h3>Order</h3>
+              </div>
+              <div class="arrow">
+                <i class="bi bi-chevron-right"></i>
+              </div>
+            </a>
+            <ul class="sublist">
+              <li><a href="/product/show.html">Show product</a></li>
+              <li><a href="/product/create.html">Create product</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </aside>
+
+
+    <main>
+      <nav>
+        <div class="nav-header">
+          <h1>Dashboard</h1>
+        </div>
+        <div class="logout">
+          <a href="#">
+            <i class="bi bi-box-arrow-right"></i>
+          </a>
+        </div>
+      </nav>
+      <div class="cards">
+        <div class="card">
+          <div class="card-header">
+            <h4>SALES</h4>
+          </div>
+          <div class="card-body">
+            <h3>customer</h3>
+            <i class="bi bi-people"></i>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <h4>SALES</h4>
+          </div>
+          <div class="card-body">
+            <h3>customer</h3>
+            <i class="bi bi-people"></i>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <h4>SALES</h4>
+          </div>
+          <div class="card-body">
+            <h3>customer</h3>
+            <i class="bi bi-people"></i>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <h4>SALES</h4>
+          </div>
+          <div class="card-body">
+            <h3>customer</h3>
+            <i class="bi bi-people"></i>
+          </div>
+        </div>
+
+      </div>
+      <div class="cards report">
+
+        <div class="card">
+          <div class="card-header">
+            <h4>NEW ORDERS</h4>
+          </div>
+          <div class="card-body">
+            <table>
+              <thead>
+                <tr>
+                  <td>S/N</td>
+                  <td>NAME</td>
+                  <td>PRICE</td>
+                  <td>QUANTITY</td>
+                  <td>STATUS</td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>sugar</td>
+                  <td>50000 Tsh</td>
+                  <td>9</td>
+                  <td>
+                    <div class="paid">paid</div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>sugar</td>
+                  <td>50000 Tsh</td>
+                  <td>9</td>
+                  <td>
+                    <div class="unpaid">unpaid</div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>sugar</td>
+                  <td>50000 Tsh</td>
+                  <td>9</td>
+                  <td>
+                    <div class="unpaid">unpaid</div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>sugar</td>
+                  <td>50000 Tsh</td>
+                  <td>9</td>
+                  <td>
+                    <div class="unpaid">unpaid</div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>sugar</td>
+                  <td>50000 Tsh</td>
+                  <td>9</td>
+                  <td>
+                    <div class="paid">paid</div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>sugar</td>
+                  <td>50000 Tsh</td>
+                  <td>9</td>
+                  <td>
+                    <div class="paid">paid</div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <h4>NEW CUSTOMERS</h4>
+          </div>
+          <div class="card-body">
+            <table>
+              <thead>
+                <tr>
+                  <td>S/N</td>
+                  <td>PHOTO</td>
+                  <td>NAME</td>
+             
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td class="profile"><img src=".photo/image.png" alt=""></td>
+                  <td>MR. RAMADHAN HUSEEIN</td>
+               
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td class="profile"><img src="photo/image.png" alt=""></td>
+                  <td>MR. RAMADHAN HUSEEIN</td>
+                  
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td class="profile"><img src=".photo/image.png" alt=""></td>
+                  <td>MR. RAMADHAN HUSEEIN</td>
+                  
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td class="profile"><img src=".photo/image.png" alt=""></td>
+                  <td>MR. RAMADHAN HUSEEIN</td>
+                  
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td class="profile"><img src=".photo/image.png" alt=""></td>
+                  <td>MR. RAMADHAN HUSEEIN</td>
+               
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td class="profile"><img src=".photo/image.png" alt=""></td>
+                  <td>MR. RAMADHAN HUSEEIN</td>
+               
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+      </div>
+  </div>
+  </main>
+  <!------------------ Body -------------------->
+  </div>
+</body>
+<script src="app.js"></script>
+
+</html>
